@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height:100vh;
+    background-color: rgb(198, 187, 171);
+}
+.container{
+
+    background-color: rgb(142, 226, 226);
+    height: 60vh;
+    width: 55vh;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 5px 6px;
+    }
+#header{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+.addtask{
+    display: flex;
+    justify-content: space-evenly;
+}
+#inputTask{
+    padding: 7px;
+    border-radius: 5px;
+}
+button:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px;
+}
+button{
+    border-radius: 5px;
+    padding: 4px;
+    background-color: rgb(151, 105, 122);
+}
+ul{
+    list-style: none;
+    padding: 15px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+    border-radius:5px ;
+    margin-bottom: 7px;
+    border: 1px solid white;
+}
+.task-list {
+    max-height: 200px; /* Set a maximum height */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: add a border for better visibility */
+    padding: 10px; /* Optional: add padding */
+    list-style-type: none; /* Optional: remove default list styling */
+}
+
